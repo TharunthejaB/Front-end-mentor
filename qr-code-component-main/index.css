@@ -1,0 +1,60 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    
+}
+.MainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.SubDiv{
+    width: 320px;
+    /* height: 497px; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+
+.qrCode{
+    margin-bottom: 24px;
+
+}
+.qrCode img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.mainText{
+    font-weight:bold;
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-align: center;
+}
+
+.subText{
+    font-weight: 400;
+    font-size: 15px;
+margin: 16px 16px 0px 16px;
+color: #7D889E;
+}
+
+.attribution{
+    margin-top: 16px;
+}
+
+@media only screen and (max-width: 375px){
+    .MainDiv{
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+    }
+}
